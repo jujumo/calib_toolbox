@@ -1,1 +1,10 @@
 = Calib toolbox
+
+
+== install env
+
+[source,bash]
+----
+conda create --name calib --file condaenv.txt
+conda activate calib
+----
