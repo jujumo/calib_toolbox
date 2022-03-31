@@ -1,5 +1,5 @@
+#!/usr/bin/env python3
 import os
-
 import numpy as np
 import cv2
 from glob import glob
@@ -8,6 +8,8 @@ import argparse
 import json
 import os.path as path
 from tqdm import tqdm
+
+
 logger = logging.getLogger(__name__)
 logging.basicConfig(format='%(name)s::%(levelname)-8s: %(message)s')
 
